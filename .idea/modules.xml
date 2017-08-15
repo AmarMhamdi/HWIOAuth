@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/Code/medschedule-web-php-mysql-frontend/.idea/medschedule-web-php-mysql-frontend.iml" filepath="$USER_HOME$/Code/medschedule-web-php-mysql-frontend/.idea/medschedule-web-php-mysql-frontend.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/socialSweetForFb.iml" filepath="$PROJECT_DIR$/.idea/socialSweetForFb.iml" />
     </modules>
   </component>
