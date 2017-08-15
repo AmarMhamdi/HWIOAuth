@@ -1,0 +1,21 @@
+SocialSweet\RecruitmentBundle\Entity\Group:
+  table: '`group`'
+  type: entity
+  fields:
+    id:
+      id: true
+      type: integer
+      generator:
+        strategy: AUTO
+  manyToMany:
+    users:
+      targetEntity: SocialSweet\RecruitmentBundle\Entity\User
+      inversedBy: groups
+      joinTable:
+        name: user_group
+        joinColumns:
+          Group_id:
+            referencedColumnName: id
+        inverseJoinColumns:
+          User_id:
+            referencedColumnName: id

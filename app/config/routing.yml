@@ -1,0 +1,3 @@
+social_sweet_recruitment:
+    resource: "@SocialSweetRecruitmentBundle/Resources/config/routing.yml"
+    prefix:   /
