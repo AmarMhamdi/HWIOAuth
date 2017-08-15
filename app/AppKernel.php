@@ -19,6 +19,7 @@ class AppKernel extends Kernel
             new SocialSweet\RecruitmentBundle\SocialSweetRecruitmentBundle(),
             new FOS\UserBundle\FOSUserBundle(),
             new HWI\Bundle\OAuthBundle\HWIOAuthBundle(),
+            new Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle()
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {
